@@ -139,7 +139,7 @@ process_pip = Pipeline(
     [
         ("text_processing", text_processor),
     ]
-)s
+)
 
 x_train_procceced = process_pip.fit_transform(train_df['Text'])
 x_test_procceced = process_pip.transform(test_df['Text'])
