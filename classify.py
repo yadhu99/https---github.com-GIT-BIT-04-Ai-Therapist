@@ -18,6 +18,8 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler, MinMaxScaler, Ro
 warnings.filterwarnings('ignore')
 pd.set_option('display.max_columns', None)
 
+#Hi tests
+
 file_path = '/Users/yadhu/PROJECTS/cape-THERAPIST/datasets/archive (5)/val.txt'
 val_df = pd.read_csv(file_path, sep=';', header=None, names=['Text', 'Emotion'])
 file_path = '/Users/yadhu/PROJECTS/cape-THERAPIST/datasets/archive (5)/train.txt'
